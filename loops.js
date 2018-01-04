@@ -21,4 +21,5 @@ function doWhileLoop(array){
   do {
     array.pop()
   } while (maybeTrue()===false)
+  return array
 }
